@@ -19,8 +19,9 @@ public class HashMapEx {
         calendar.replace(12, "Diciembre");
         System.out.println("Ahora sí, dame el mes 12 en español: " + calendar.get(12));
 
-        calendar.remove(13);
+        //calendar.remove(13);
         System.out.println("¿Mes 13? " + (calendar.get(13) == null ? "No" : "Sí"));
+        System.out.println("Dame el mes 13: " + calendar.get(13));
 
     }
 }

@@ -9,14 +9,14 @@ public class CaraBook implements SocialMedia {
     }
 
     public void publishRant() {
-        // blabla
+        System.out.println("CB.publishRant");
     }
 
     public void marketing() {
-        // blabla
+        System.out.println("CB.marketing");
     }
 
     public void publishLifeEvent() {
-        // blabla
+        System.out.println("CB.publishLifeEvent");
     }
 }
